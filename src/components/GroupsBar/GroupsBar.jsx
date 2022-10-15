@@ -22,9 +22,9 @@ export const GroupsBar = () => {
                 </button>
 
                 <hr />
-                <GroupIcon pictureURL="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png" />
+                {/* <GroupIcon pictureURL="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png" /> */}
                 <hr />
-                <GroupIcon pictureURL="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png" />
+                {/* <GroupIcon pictureURL="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png" /> */}
                 <hr />
             </div>
         </>

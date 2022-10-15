@@ -16,8 +16,11 @@ export const Home = () => {
 
             <div className="flex h-screen text-black">
                 <GroupsBar />
-                <MembersBar />
-                <Calendar />
+                {userLoggedIn && <>
+                    <MembersBar />
+                    <Calendar />
+                </>
+                }
             </div>
         </>
     )

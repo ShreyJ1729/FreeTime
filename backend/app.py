@@ -15,7 +15,6 @@ app = Flask(__name__)
 '/get-freetime' endpoint:
 - parameters: two user uIDs
 - calls calendar API to download calendars and return freetime object
-
 ''
 
 """
