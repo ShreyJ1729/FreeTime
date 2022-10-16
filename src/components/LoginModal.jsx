@@ -38,10 +38,10 @@ export const LoginModal = () => {
                     <div className="mt-3 sm:flex">
                         <div className="mt-2 text-left mx-auto">
                             <h4 className="text-lg font-medium text-gray-800">
-                                Login to access FreeTime
+                                Login to access InSync
                             </h4>
                             <p className="mt-2 text-[15px] leading-relaxed text-gray-500">
-                                FreeTime might ask for access to your google calendar
+                            InSync might ask for access to your google calendar
                             </p>
                             <div className="items-center gap-2 mt-3 sm:flex">
                                 <button

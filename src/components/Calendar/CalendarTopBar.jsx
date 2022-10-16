@@ -7,7 +7,7 @@ export const CalendarTopBar = () => {
         </div>
 
         <>
-            <div className="hidden mx-2 w-px h-6 bg-white/[.06] md:block"></div>
+        <div className="hidden mx-2 w-px h-6 bg-white/[.06] md:block"></div>
             <div className="hidden mx-2 text-sm font-medium text-gray-200 truncate md:block">
                 description
             </div>

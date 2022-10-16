@@ -1,0 +1,3 @@
+# so we dont push calendar ics files and credentials json files
+*.ics
+*.json

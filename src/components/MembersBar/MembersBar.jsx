@@ -51,7 +51,7 @@ export const MembersBar = () => {
 
     return (
         <>
-            <div className="hidden flex-col w-60 md:flex" style={{ "backgroundColor": "#F2F3F5" }}>
+            <div className="hidden flex-col w-60 md:flex" style={{ "backgroundColor": "#F2F3F5" }} id="member-bar">
                 <button className="flex items-center mx-auto h-12 font-title text-[18px] font-semibold text-black">
                     My Friends
                 </button>
@@ -61,7 +61,7 @@ export const MembersBar = () => {
                         return (
                             <div key={userId}>
                                 <button onClick={() => { toggleUser(userId) }} id={"button-" + userId} className="flex items-center pl-5 w-full font-title text-sm tracking-wide hover:text-black uppercase">
-                                    <input type="checkbox" value="" id={"checkbox-" + userId} className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-purple-700 checked:border-purple-700 focus:outline-none transition duration-200 my-1 align-top bg-no-repeat bg-center bg-contain float-left cursor-pointer ml-0 mr-1" />
+                                    <input type="checkbox" value="" id={"checkbox-" + userId} className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-800 checked:border-blue-800 focus:outline-none transition duration-200 my-1 align-top bg-no-repeat bg-center bg-contain float-left cursor-pointer ml-0 mr-1" />
                                     <img className="w-1/12 h-1/12 mx-1 rounded-full" src={firebaseData?.users[userId].picture} alt=""/>
                                     {userList[userId].name}
                                 </button>
